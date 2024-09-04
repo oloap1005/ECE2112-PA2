@@ -8,7 +8,7 @@ DATE: 5/09/2024
 
 # DOCUMENTATION
 
-1. NORMALIZATION PROBLEM: Normalization is one of the most basic preprocessing techniques in
+# 1. NORMALIZATION PROBLEM: Normalization is one of the most basic preprocessing techniques in
 data analytics. This involves centering and scaling process. Centering means subtracting the data from the
 mean and scaling means dividing with its standard deviation.
 
@@ -30,7 +30,7 @@ mean and scaling means dividing with its standard deviation.
 
 
 
-2. DIVISIBLE BY 3 PROBLEM: Create the following 10 x 10 ndarray.
+# 2. DIVISIBLE BY 3 PROBLEM: Create the following 10 x 10 ndarray.
 
 
 
