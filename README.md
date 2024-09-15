@@ -53,12 +53,25 @@ which are the squares of the first 100 positive integers.
 ## CODE:
 
 
+1. Create a 10x10 ndarray (A) of the first 100 integers
+.np.arange(1, 101) creates an array of numbers from 1 to 100.
+.reshape((10, 10)) converts this 1D array into a 10x10 matrix.
+2. Square each element of the array: "Squared_A = np.square(A)" This squares every element in the matrix A, resulting in a new matrix where each number is replaced by its square.
+3. Filter elements divisible by 3: div_by_3 = "Squared_A[Squared_A % 3 == 0]"this selects all the elements from the squared matrix (Squared_A) that are divisible by 3 (% 3 == 0).
+4. save the file to .npy
+5. load the data using np.load
+6. display data
+ 
+
 
 
 ![image](https://github.com/user-attachments/assets/d3b9cec4-8992-4de7-95a1-f3e567971f14)
 
 
 ## OUTPUT:
+
+The output contains the squares of integers from 1 to 100 that are divisible by 3. These numbers are extracted from the squared 10x10 matrix and stored in a separate array. After saving and reloading, this array is displayed, showing only the squared values that meet the divisibility condition.
+
 
 
 ![image](https://github.com/user-attachments/assets/75d06bd8-1e9e-43e2-beb1-566d48c2ec08)
